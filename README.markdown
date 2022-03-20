@@ -1,4 +1,4 @@
-# Windows-8-like Animations with CSS3 and jQuery
+# Project SRI - EduGame for Kids
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/SaraSoueidan/pen/kyebBb](https://codepen.io/SaraSoueidan/pen/kyebBb).
 
