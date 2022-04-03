@@ -1,0 +1,43 @@
+.body1 {
+  background-color: #00b0f0;
+}
+
+.body2 {
+  background-color: #ff0000;
+}
+
+.home-card {
+  width: 12rem;
+  margin-bottom: 100px;
+}
+
+.image-home {
+  width: 8rem;
+  background-color: white;
+}
+
+.drop {
+  width: 80px;
+  height: 80px;
+  background: white;
+}
+
+.animal-card {
+  width: 100px;
+}
+
+.image-animal {
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.image-animal:hover {
+  cursor: grab;
+}
+
+.animal-card-text {
+  border: 2px solid black;
+}
