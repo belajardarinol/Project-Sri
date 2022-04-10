@@ -1,0 +1,71 @@
+body {
+  background-color: #db13a7;
+}
+
+.mycard {
+  width: 250px;
+}
+
+.mycard-2 {
+  width: 200px;
+  height: 280px;
+}
+
+.mycard a {
+  height: 280px;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.img-fluid {
+  background-color: white;
+}
+
+.mycard .text,
+.mycard-2 .text {
+  background-color: white;
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
+}
+
+.ikan {
+  background-color: #ff0000;
+}
+
+.ayam {
+  background-color: #00b050;
+}
+
+.sapi {
+  background-color: #ec28b9;
+}
+
+.kuda {
+  background-color: #7030a0;
+}
+
+.ular {
+  background-color: #ff0000;
+}
+
+.word-card {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.word-card1 {
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.word-card1:hover {
+  cursor: grab;
+}
