@@ -12,17 +12,15 @@ checkboxSatu.forEach( e => e.addEventListener('click', () => {
     x1 = 0;
     y1 = cordinat.top;
 
+
    
 
 }))
 
 checkboxDua.forEach(e => e.addEventListener('click', () => {
     let cordinat = getOffet(e);
-    x2 = cordinat.left;
+    x2 = 500;
     y2 = cordinat.top;
-
-
-    console.log(canvas.getContext)
 
     if (!canvas.getContext) {
         return;
@@ -42,6 +40,7 @@ checkboxDua.forEach(e => e.addEventListener('click', () => {
 
 function getOffet(el){
     const rect = el.getBoundingClientRect();
+
     return {
     left: rect.left + window.scrollX,
     top: rect.top + window.scrollY
