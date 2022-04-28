@@ -105,7 +105,7 @@ header("Access-Control-Allow-Headers: X-Requested-With");
           <div><p  onclick="location.href = 'page/page2.php';">Start</p></div>
         </li>
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
-          <div><p><span class="icon-skype"></span>Susun Monster</p></div>
+          <div><p><span class="icon-skype"></span>Susun Hewan</p></div>
           <div><p onclick="location.href = '/simple-drag-and-drop-game/dist/index.html';">Start</p></div>
           <!-- <img src="/project-sri-match/index.html" alt="" srcset=""> -->
         </li>
