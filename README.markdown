@@ -1,5 +1,6 @@
 # Project SRI - EduGame for Kids
-
+Semoga Berkah
+------------------------
 A Pen created on CodePen.io. Original URL: [https://codepen.io/SaraSoueidan/pen/kyebBb](https://codepen.io/SaraSoueidan/pen/kyebBb).
 
 UPDATED DEMO FOR MY BLOG POST TUTORIAL 

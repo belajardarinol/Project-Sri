@@ -1,0 +1,32 @@
+.animal-white,
+.animal-color {
+  width: 120px;
+}
+
+.bird-white {
+  top: 10px;
+}
+
+.horse-white {
+  top: 240px;
+  right: 260px;
+}
+
+.buffalo-white {
+  top: 260px;
+  left: 20px;
+}
+
+.goat-white {
+  top: 370px;
+  left: 300px;
+}
+
+.dog-white {
+  top: 300px;
+  right: 50px;
+}
+
+.bg {
+  width: 700px;
+}

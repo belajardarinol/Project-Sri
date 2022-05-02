@@ -18,7 +18,8 @@
 
 .text {
   width: 200px;
-  height: 30px;
+  /* height: 30px; */
+  min-height: 30px;
   background-color: white;
 }
 
