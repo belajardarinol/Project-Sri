@@ -41,3 +41,34 @@
 .animal-card-text {
   border: 2px solid black;
 }
+
+@media screen and (max-width: 900px) {
+  .home-card {
+    margin: 0;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 5rem;
+  }
+
+  .drop {
+    width: 40px;
+    height: 40px;
+  }
+
+  .image-home {
+    width: 5rem;
+  }
+
+  .image-animal {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-right: 0;
+  }
+
+  .animal-card {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
