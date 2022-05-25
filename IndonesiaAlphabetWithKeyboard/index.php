@@ -32,60 +32,60 @@ header("Access-Control-Allow-Headers: X-Requested-With");
     <div class="keyboard">
         <div class="keyboard-row">
             <div class="key-box">
-                <div class="key" data-word='A'><kbd>A</kbd></div>
-                <div class="key" data-word='B'><kbd>B</kbd></div>
+                <div class="key"><kbd>A</kbd></div>
+                <div class="key"><kbd>B</kbd></div>
             </div>
             <div class="key-box">
-                <div class="key" data-word='c'><kbd>C</kbd></div>
-                <div class="key" data-word='D'><kbd>D</kbd></div>
+                <div class="key"><kbd>C</kbd></div>
+                <div class="key"><kbd>D</kbd></div>
             </div>
             <div class="key-box">
-                <div class="key" data-word='E'><kbd>E</kbd></div>
-                <div class="key" data-word='F'><kbd>F</kbd></div>
+                <div class="key"><kbd>E</kbd></div>
+                <div class="key"><kbd>F</kbd></div>
             </div>
             <div class="key-box">
-                <div class="key" data-word='G'><kbd>G</kbd></div>
-                <div class="key" data-word='H'><kbd>H</kbd></div>
+                <div class="key"><kbd>G</kbd></div>
+                <div class="key"><kbd>H</kbd></div>
             </div>
             <div class="key-box">
-                <div class="key" data-word='I'><kbd>I</kbd></div>
-                <div class="key" data-word='J'><kbd>J</kbd></div>
-            </div>
-        </div>
-        <div class="keyboard-row">
-            <div class="key-box">
-                <div class="key" data-word='K'><kbd>K</kbd></div>
-                <div class="key" data-word='L'><kbd>L</kbd></div>
-            </div>
-            <div class="key-box">
-                <div class="key" data-word='M'><kbd>M</kbd></div>
-                <div class="key" data-word='N'><kbd>N</kbd></div>
-            </div>
-            <div class="key-box">
-                <div class="key" data-word='O'><kbd>O</kbd></div>
-                <div class="key" data-word='P'><kbd>P</kbd></div>
-            </div>
-            <div class="key-box">
-                <div class="key" data-word='Q'><kbd>Q</kbd></div>
-                <div class="key" data-word='R'><kbd>R</kbd></div>
-            </div>
-            <div class="key-box">
-                <div class="key" data-word='S'><kbd>S</kbd></div>
-                <div class="key" data-word='T'><kbd>T</kbd></div>
+                <div class="key"><kbd>I</kbd></div>
+                <div class="key"><kbd>J</kbd></div>
             </div>
         </div>
         <div class="keyboard-row">
             <div class="key-box">
-                <div class="key" data-word='U'><kbd>U</kbd></div>
-                <div class="key" data-word='V'><kbd>V</kbd></div>
+                <div class="key"><kbd>K</kbd></div>
+                <div class="key"><kbd>L</kbd></div>
             </div>
             <div class="key-box">
-                <div class="key" data-word='W'><kbd>W</kbd></div>
-                <div class="key" data-word='X'><kbd>X</kbd></div>
+                <div class="key"><kbd>M</kbd></div>
+                <div class="key"><kbd>N</kbd></div>
             </div>
             <div class="key-box">
-                <div class="key" data-word='Y'><kbd>Y</kbd></div>
-                <div class="key" data-word='Z'><kbd>Z</kbd></div>
+                <div class="key"><kbd>O</kbd></div>
+                <div class="key"><kbd>P</kbd></div>
+            </div>
+            <div class="key-box">
+                <div class="key"><kbd>Q</kbd></div>
+                <div class="key"><kbd>R</kbd></div>
+            </div>
+            <div class="key-box">
+                <div class="key"><kbd>S</kbd></div>
+                <div class="key"><kbd>T</kbd></div>
+            </div>
+        </div>
+        <div class="keyboard-row">
+            <div class="key-box">
+                <div class="key"><kbd>U</kbd></div>
+                <div class="key"><kbd>V</kbd></div>
+            </div>
+            <div class="key-box">
+                <div class="key"><kbd>W</kbd></div>
+                <div class="key"><kbd>X</kbd></div>
+            </div>
+            <div class="key-box">
+                <div class="key"><kbd>Y</kbd></div>
+                <div class="key"><kbd>Z</kbd></div>
             </div>
         </div>
     </div>
