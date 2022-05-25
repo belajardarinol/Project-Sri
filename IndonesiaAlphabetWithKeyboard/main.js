@@ -64,7 +64,7 @@ function playAudioForKeyDown(event) {
 }
 
 function playAudioForClick() {
-  content = this.firstChild.innerHTML;
+  const content = this.firstChild.innerHTML;
   alphabet.forEach((item) => {
     if (content == item.character) {
       const audio = document.querySelector(`audio[data-key="${item.key}"]`);
