@@ -8,8 +8,6 @@ const text = [];
 keyArray.forEach((key) => {
   // get inner text
   const keyText = key.innerText;
-  // get key code
-  const keyCode = key.dataset.key;
   // add event listener
   key.addEventListener("click", () => {
     // reset output
