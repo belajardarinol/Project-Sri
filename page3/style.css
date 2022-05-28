@@ -33,3 +33,12 @@
 .img-card img:hover {
   cursor: pointer;
 }
+
+.per-world,
+.per-syllable {
+  margin-top: 20px;
+  width: 500px;
+  /* height: 30px; */
+  min-height: 30px;
+  background-color: white;
+}
