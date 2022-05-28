@@ -27,7 +27,7 @@ header("Access-Control-Allow-Headers: X-Requested-With");
 
 <body>
     <div class="top-circle"></div>
-    <div class="title">Indoinesia Alphabet With Keyboard</div>
+    <div class="title">Mengenal Indonesia Alphabet</div>
     <div class="title output"></div>
     <div class="keyboard">
         <div class="keyboard-row">
@@ -89,10 +89,10 @@ header("Access-Control-Allow-Headers: X-Requested-With");
             </div>
         </div>
     </div>
-    <div class="logo"><a
+    <!-- <div class="logo"><a
             href="https://veysel.co?utm_source=open_source_project&utm_medium=logo&utm_campaign=english_alphabet"
             target="_blank"><img src="./assets/images/dijitalveysel-logo.svg" alt="Veysel Demirel" width="250"
-                draggable="false"></a></div>
+                draggable="false"></a></div> -->
     <div class="bottom-circle"></div>
     <div id="audios"></div>
 </body>

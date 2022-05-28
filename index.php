@@ -13,7 +13,7 @@ header("Access-Control-Allow-Headers: X-Requested-With");
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://sarasoueidan.com/demos/windows8-animations/css/demo-styles.css'><link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='demo.css'>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
@@ -51,8 +51,12 @@ header("Access-Control-Allow-Headers: X-Requested-With");
     <ul class="tiles">
       <div class="col1 clearfix">
         <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
-          <div><p>Keyboard Huruf</p></div>
+          <div><p>Mengenal Huruf</p></div>
           <div><p onclick="location.href = 'IndonesiaAlphabetWithKeyboard/index.php';">Start</p></div>
+        </li>
+        <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
+          <div><p>Menulis Nama</p></div>
+          <div><p onclick="location.href = 'create-name/index.php';">Start</p></div>
         </li>
         <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
           <div><p>Mengenal Huruf Vokal</p></div>
@@ -62,10 +66,11 @@ header("Access-Control-Allow-Headers: X-Requested-With");
           <div><p>Mengenal Huruf Konsonan</p></div>
           <div><p onclick="location.href = 'page2/index.html';">Start</p></div>
         </li>
-        <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
-          <div><p>Mengenal Suara Hewan</p></div>
-          <div><p onclick="location.href = 'page/page1.php';">Start</p></div>
-        </li>
+        <!-- <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
+          <div><p >Mengenal Suara Hewan Buas</p></div>
+          <div><p onclick="location.href = '/page3/buas.html';">Start</p></div>
+          <img src="/project-sri-match/index.html" alt="" srcset="">
+        </li> -->
         <!-- <li class="tile tile-small tile tile-2 slideTextRight" data-page-type="s-page" data-page-name ="random-restored-page">
           <div><p class="icon-arrow-right"></p>
           <div><p onclick="location.href = 'page/page1.php';">Start</p></div></div>
@@ -92,23 +97,32 @@ header("Access-Control-Allow-Headers: X-Requested-With");
         <!-- <li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="random-r-page">
           <div><p><span class="icon-cloudy"></span>Game 5</p></div>
         </li> -->
+        <!-- <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
+          <div><p> Hewan</p></div>
+          <div><p onclick="location.href = 'page/page1.php';">Start</p></div>
+        </li> -->
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
-          <div><p class="icon-arrow-right"> Mencari Pasangannya</p></div>
+          <div><p> Mencari Pasangannya</p></div>
           <div><p  onclick="location.href = '/project-sri-match/index.html';">Start</p></div>
         </li>
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
-          <div><p class="icon-calendar-alt-fill"> Hewan dan kandangnya</p></div>
+          <div><p > Hewan dan kandangnya</p></div>
           <div><p onclick="location.href = 'page/page1.php';">Start</p></div>
         </li>
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
-          <div><p class="icon-picassa">Hewan dan Makanannya</p></div>
+          <div><p >Hewan dan Makanannya</p></div>
           <div><p  onclick="location.href = 'page/page2.php';">Start</p></div>
         </li>
         <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
-          <div><p class="icon-skype">Susun Hewan</p></div>
+          <div><p ">Susun Hewan</p></div>
           <div><p onclick="location.href = '/tebak-gambar/index.html';">Start</p></div>
           <!-- <img src="/project-sri-match/index.html" alt="" srcset=""> -->
         </li>
+        <!-- <li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="random-r-page">
+          <div><p >Mengenal Suara Hewan Ternak</p></div>
+          <div><p onclick="location.href = '/page3/ternak.html';">Start</p></div>
+          <img src="/project-sri-match/index.html" alt="" srcset="">
+        </li> -->
         <!--Tiles with a 3D effect should have the following structure:
             1) a container inside the tile with class of .faces
             2) 2 figure elements, one with class .front and the other with class .back-->
@@ -124,6 +138,29 @@ header("Access-Control-Allow-Headers: X-Requested-With");
             <div class="back"><p>Game 8</p></div>
           </div>
         </li> -->
+      </div>
+
+      <div class="col3 clearfix">
+        
+        <li class="tile tile-big tile-10" data-page-type="" data-page-name="custom-page">
+        <div><p >Start</p></div>
+        <center>
+          <div onclick="location.href = '/page3/ternak.html';">Mengenal Suara Hewan Ternak</div>
+          </center>
+        </li>
+        <li class="tile tile-big tile-10" data-page-type="" data-page-name="custom-page">
+        <div><p >Start</p></div><center>
+          <div onclick="location.href = '/page3/buas.html';">Mengenal Suara Hewan Buas</div>
+          </center>
+        </li>
+
+        <li class="tile tile-2xbig tile-9 fig-tile" data-page-type="custom-page" data-page-name="random-r-page">
+          <figure>
+            <img src="1.png" />
+            <figcaption class="tile-caption caption-bottom">Game Edukasi Anak by Sri Aisyah
+            <p>Teknlogi web memungkinkan game bisa di akses dari device apapun.</p>
+            </figure>
+        </li>
       </div>
 
       <!-- <div class="col3 clearfix">      
