@@ -1,6 +1,7 @@
 const animals = document.querySelectorAll('.animal')
-const animalSelector = ['dog', 'cow', 'cat', 'goat'];
+const animalSelector = ['lion', 'panda', 'crocodail', 'snake'];
 const selectedAnimal = animalSelector[Math.floor(Math.random() * 4)];
+
 
 const playSound = () => {
     const audio = document.getElementById('audio');
@@ -15,25 +16,25 @@ const showImage = () => {
     const perWorld = document.querySelector('div.per-world h1');
     const perSyllable = document.querySelector('div.per-syllable h1');
     switch (selectedAnimal){
-        case 'goat':
-            desc.innerHTML = 'Kambing';
-            perWorld.innerHTML = 'k a m b i n g';
-            perSyllable.innerHTML = 'Kam-bing';
+        case 'lion':
+            desc.innerHTML = 'Singa';
+            perWorld.innerHTML = 's i n g a';
+            perSyllable.innerHTML = 'Si-nga';
             break
-        case 'dog':
-            desc.innerHTML = 'Anjing';
-            perWorld.innerHTML = 'a n j i  n g';
-            perSyllable.innerHTML = 'An-jing';
+        case 'panda':
+            desc.innerHTML = 'Panda';
+            perWorld.innerHTML = 'p a n d a';
+            perSyllable.innerHTML = 'Pan-da';
             break
-        case 'cow':
-            desc.innerHTML = 'Sapi';
-            perWorld.innerHTML = 's a p i';
-            perSyllable.innerHTML = 'Sa-pi';
+        case 'crocodail':
+            desc.innerHTML = 'Buaya';
+            perWorld.innerHTML = 'b u a y a';
+            perSyllable.innerHTML = 'Bu-a-ya';
             break
-        case 'cat':
-            desc.innerHTML = 'Kucing';
-            perWorld.innerHTML = 'k u c i n g';
-            perSyllable.innerHTML = 'Ku-cing';
+        case 'snake':
+            desc.innerHTML = 'Ular';
+            perWorld.innerHTML = 'u l a r';
+            perSyllable.innerHTML = 'U-lar';
             break
         default:
             desc.innerHTML = ''

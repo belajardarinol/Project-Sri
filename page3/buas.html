@@ -19,27 +19,37 @@
       <div class="row">
         <div class="col-6 border-end border-dark">
           <div class="sound-card d-flex align-items-center flex-column">
-            <i class="bi bi-volume-down-fill"></i>
-            <div class="wrapper"></div>
-            <div class="text mt-3"></div>
-            <div class="per-world">Kambing</div>
-            <div class="per-syllable">Kam-bing</div>
+            <button onclick="playSound()" class="bg-transparent" style="border: none">
+              <i class="bi bi-volume-down-fill"></i>
+            </button>
+            <div class="wrapper mb-4">
+              <img src="" class="img-thumbnail " id="img" alt="" />
+            </div>
+            <div class="text mt-4">
+              <h1 class="" style="text-align: center;" id="desc"></h1>
+            </div>
+            <div class="per-world" style="text-align: center;">
+              <h1></h1>
+            </div>
+            <div class="per-syllable" style="text-align: center;">
+              <h1></h1>
+            </div>
           </div>
         </div>
         <div class="col-6 d-flex align-items-center flex-wrap">
           <div class="img-card">
-            <img src="assets/img/crocodile.png" class="img-fluid p-1" alt="" />
-            <img src="assets/img/lion.png" class="img-fluid p-1" alt="" />
-            <img src="assets/img/tiger.png" class="img-fluid p-1" alt="" />
-            <img src="assets/img/snake.png" class="img-fluid p-1" alt="" />
-            <img src="assets/img/panda.png" class="img-fluid p-1" alt="" />
+            <img src="assets/img/crocodile.png" class="img-fluid p-1 animal" id="crocodile" alt="" />
+            <img src="assets/img/lion.png" class="img-fluid p-1 animal" id="lion" alt="" />
+            <img src="assets/img/snake.png" class="img-fluid p-1 animal" id="snake" alt="" />
+            <img src="assets/img/panda.png" class="img-fluid p-1 animal" id="panda" alt="" />
           </div>
         </div>
       </div>
     </div>
+    <audio id="audio" src=""></audio>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <script src="script.js"></script>
+    <script src="buas.js"></script>
   </body>
 </html>

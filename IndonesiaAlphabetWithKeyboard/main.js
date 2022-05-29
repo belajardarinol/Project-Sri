@@ -80,4 +80,4 @@ keys.forEach((key) => {
 });
 
 //listen keydown for window object
-window.addEventListener("keydown", playAudioForKeyDown);
+// window.addEventListener("keydown", playAudioForKeyDown);
