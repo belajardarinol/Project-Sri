@@ -1,5 +1,5 @@
 const animals = document.querySelectorAll('.animal')
-const animalSelector = ['lion', 'panda', 'crocodail', 'snake'];
+const animalSelector = ['lion', 'panda', 'elephant', 'snake'];
 const selectedAnimal = animalSelector[Math.floor(Math.random() * 4)];
 
 
@@ -26,10 +26,10 @@ const showImage = () => {
             perWorld.innerHTML = 'p a n d a';
             perSyllable.innerHTML = 'Pan-da';
             break
-        case 'crocodail':
-            desc.innerHTML = 'Buaya';
-            perWorld.innerHTML = 'b u a y a';
-            perSyllable.innerHTML = 'Bu-a-ya';
+        case 'elephant':
+            desc.innerHTML = 'Gajah';
+            perWorld.innerHTML = 'g a j a h';
+            perSyllable.innerHTML = 'Ga-jah';
             break
         case 'snake':
             desc.innerHTML = 'Ular';
