@@ -52,7 +52,7 @@ header("Access-Control-Allow-Headers: X-Requested-With");
       <div class="col1 clearfix">
         <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
           <div><p>Mengenal Huruf</p></div>
-          <div><p onclick="location.href = 'IndonesiaAlphabetWithKeyboard/index.php';">Start</p></div>
+          <div><p onclick="location.href = 'IndonesiaAlphabetWithKeyboard/index.html';">Start</p></div>
         </li>
         <li class="tile tile-big tile-1 slideTextUp" data-page-type="r-page" data-page-name="random-r-page">
           <div><p>Menulis Nama</p></div>
