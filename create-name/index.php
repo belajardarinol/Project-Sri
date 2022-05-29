@@ -21,71 +21,76 @@ header("Access-Control-Allow-Headers: X-Requested-With");
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="./assets/images/dijitalveysel-favicon.png">
     <script src="main.js" type="module" defer></script>
-    <title>Indonesia Alphabet Keyboard</title>
+    <title>Tulis Namamu</title>
     <meta name="description" content="English alphabet keyboard with audio.">
 </head>
 
 <body>
     <div class="top-circle"></div>
-    <div class="title">Mengenal Indonesia Alphabet</div>
+    <div class="title">Tulis Namamu</div>
     <div class="title output"></div>
     <div class="keyboard">
         <div class="keyboard-row">
             <div class="key-box">
-                <div class="key"><kbd>A</kbd></div>
-                <div class="key"><kbd>B</kbd></div>
+                <div class="key">A</div>
+                <div class="key">B</div>
             </div>
             <div class="key-box">
-                <div class="key"><kbd>C</kbd></div>
-                <div class="key"><kbd>D</kbd></div>
+                <div class="key">C</div>
+                <div class="key">D</div>
             </div>
             <div class="key-box">
-                <div class="key"><kbd>E</kbd></div>
-                <div class="key"><kbd>F</kbd></div>
+                <div class="key">E</div>
+                <div class="key">F</div>
             </div>
             <div class="key-box">
-                <div class="key"><kbd>G</kbd></div>
-                <div class="key"><kbd>H</kbd></div>
+                <div class="key">G</div>
+                <div class="key">H</div>
             </div>
             <div class="key-box">
-                <div class="key"><kbd>I</kbd></div>
-                <div class="key"><kbd>J</kbd></div>
-            </div>
-        </div>
-        <div class="keyboard-row">
-            <div class="key-box">
-                <div class="key"><kbd>K</kbd></div>
-                <div class="key"><kbd>L</kbd></div>
-            </div>
-            <div class="key-box">
-                <div class="key"><kbd>M</kbd></div>
-                <div class="key"><kbd>N</kbd></div>
-            </div>
-            <div class="key-box">
-                <div class="key"><kbd>O</kbd></div>
-                <div class="key"><kbd>P</kbd></div>
-            </div>
-            <div class="key-box">
-                <div class="key"><kbd>Q</kbd></div>
-                <div class="key"><kbd>R</kbd></div>
-            </div>
-            <div class="key-box">
-                <div class="key"><kbd>S</kbd></div>
-                <div class="key"><kbd>T</kbd></div>
+                <div class="key">I</div>
+                <div class="key">J</div>
             </div>
         </div>
         <div class="keyboard-row">
             <div class="key-box">
-                <div class="key"><kbd>U</kbd></div>
-                <div class="key"><kbd>V</kbd></div>
+                <div class="key">K</div>
+                <div class="key">L</div>
             </div>
             <div class="key-box">
-                <div class="key"><kbd>W</kbd></div>
-                <div class="key"><kbd>X</kbd></div>
+                <div class="key">M</div>
+                <div class="key">N</div>
             </div>
             <div class="key-box">
-                <div class="key"><kbd>Y</kbd></div>
-                <div class="key"><kbd>Z</kbd></div>
+                <div class="key">O</div>
+                <div class="key">P</div>
+            </div>
+            <div class="key-box">
+                <div class="key">Q</div>
+                <div class="key">R</div>
+            </div>
+            <div class="key-box">
+                <div class="key">S</div>
+                <div class="key">T</div>
+            </div>
+        </div>
+        <div class="keyboard-row">
+            <div class="key-box">
+                <div class="key">U</div>
+                <div class="key">V</div>
+            </div>
+            <div class="key-box">
+                <div class="key">W</div>
+                <div class="key">X</div>
+            </div>
+            <div class="key-box">
+                <div class="key">Y</div>
+                <div class="key">Z</div>
+            </div>
+        </div>
+        <div class="keyboard-row">
+            <div class="key-box">
+                <div class="key reset">RESET</div>
             </div>
         </div>
     </div>
