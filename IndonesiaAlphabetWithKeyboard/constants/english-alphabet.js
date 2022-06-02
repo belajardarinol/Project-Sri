@@ -103,4 +103,8 @@ export const alphabet = [
     character: "Z",
     key: 90,
   },
+  {
+    character: "Play",
+    key: 91,
+  },
 ];
